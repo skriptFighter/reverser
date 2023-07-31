@@ -1,5 +1,5 @@
 // insert any value
-let value = 1234;
+let value = 123456789;
 
 const reverse = function (value) {
   // declared this undefiend so i can use it outside of if statements
@@ -22,8 +22,7 @@ const reverse = function (value) {
     for (let i = oldArray.length - 1; i >= 0; i--) {
       array.push(oldArray[i]);
     }
-    //FIXME need to show the outup outside array
-    return array;
+    return array.join("");
   } else {
     return `your entered value: "${value}" can't be reversed`;
   }
