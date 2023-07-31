@@ -12,7 +12,7 @@ const reverse = function (value) {
     newValue = value.toString();
     let array = [];
 
-    //to convert the given value to array
+    //to insert the converted value to array
     let oldArray = Array.from(newValue);
 
     //i = the lenght of the given value ,
